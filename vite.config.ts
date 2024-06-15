@@ -16,9 +16,9 @@ export default defineConfig(() => ({
   build: {
     lib: {
       entry: resolve('src', 'components/index.ts'),
-      name: 'react-grain',
+      name: packageJson.name,
       formats: ['es', 'umd'],
-      fileName: (format) => `react-grain.${format}.js`,
+      fileName: (format) => `${packageJson.name}.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
