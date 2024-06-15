@@ -21,7 +21,8 @@
       "import": "./dist/react-grain.es.js",
       "require": "./dist/react-grain.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/style.css": "./dist/style.css",
+    "./dist/index.d.ts": "./dist/index.d.ts"
   },
   "main": "./dist/react-grain.umd.js",
   "module": "./dist/react-grain.es.js",
