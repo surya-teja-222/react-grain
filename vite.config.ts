@@ -14,6 +14,7 @@ export default defineConfig(() => ({
     dts({ include: ['src/components/'] }),
   ],
   build: {
+    assetsDir: resolve('src', 'assets'),
     lib: {
       entry: resolve('src', 'components/index.ts'),
       name: packageJson.name,

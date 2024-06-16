@@ -29,11 +29,13 @@
     },
     "typeRoots": [
       "node_modules/@types",
-      "src/components/index.d.ts"
+      "src/components/index.d.ts",
+      "src/components/image.d.ts"
     ]
   },
   "include": [
-    "src"
+    "src",
+    "src/components/image.d.ts"
   ],
   "references": [
     {

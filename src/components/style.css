@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@keyframes anim-noise {
+  50% {
+    transform: translateX(-150px) translateY(-120px);
+  }
+  100% {
+    transform: translateX(0) translateY(-200px) ;
+  }
+}
+
+.relative {
+  position: relative;
+}

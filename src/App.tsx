@@ -1,10 +1,17 @@
 import React from 'react'
-import { Helloworld } from 'react-grain'
+import { ReactGrain } from 'react-grain'
 
 function App() {
   return (
-    <Helloworld text='hi'/>
+    <>
+      <ReactGrain style={{
+        backgroundColor: '#161616',
+        color: 'white',
+      }}>
+        Hello
+      </ReactGrain>
+    </>
   )
 }
 
-export default App
+export default App;
