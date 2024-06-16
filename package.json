@@ -14,7 +14,8 @@
     "clean": "rm -rf dist"
   },
   "files": [
-    "dist"
+    "dist",
+    "src/assets"
   ],
   "exports": {
     ".": {
@@ -22,7 +23,8 @@
       "require": "./dist/react-grain.umd.js"
     },
     "./dist/style.css": "./dist/style.css",
-    "./dist/index.d.ts": "./dist/index.d.ts"
+    "./dist/index.d.ts": "./dist/index.d.ts",
+    "./dist/*": "./dist/*"
   },
   "main": "./dist/react-grain.umd.js",
   "module": "./dist/react-grain.es.js",

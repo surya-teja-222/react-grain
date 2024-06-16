@@ -8,6 +8,7 @@
   },
   "include": [
     "vite.config.ts",
-    "package.json"
+    "package.json",
+    "src/components/image.d.ts",
   ],
 }
